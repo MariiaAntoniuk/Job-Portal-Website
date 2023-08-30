@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <title>Responsive Job Portal Website</title>
+</head>
+<body>
+<!--sidebar-->
+<div class="sidebar">
+    <h1 class="logo">JobsPlace</h1>
+    <div class="menus">
+        <a href="#"><ion-icon name="home-outline"></ion-icon> Home</a>
+        <a href="#"><ion-icon name="newspaper-outline"></ion-icon> Find Jobs</a>
+        <a href="#"><ion-icon name="stats-chart-outline"></ion-icon> Performance</a>
+        <a href="#"><ion-icon name="bookmarks-outline"></ion-icon> Bookmarks</a>
+        <a href="#"><ion-icon name="mail-unread-outline"></ion-icon> Message</a>
+        <a href="#"><ion-icon name="settings-outline"></ion-icon> Setting</a>
+    </div>
+    <div class="profile">
+        <img src="profile-img.webp" alt="" class="profile-img">
+        <div class="profile-name">
+            <h4>Albert Einstein</h4>
+            <p>Data Science</p>
+        </div>
+    </div>
+</div>
+
+<!--main-->
+<div class="main">
+    <div class="main-header">
+        <ion-icon class="menu-bar" name="menu-outline"></ion-icon>
+        <div class="search">
+            <input type="text" placeholder="Search your best job here...">
+            <button class="btn-search"><ion-icon name="search-outline"></ion-icon></button>
+        </div>
+    </div>
+    <div class="filter-wrapper">
+        <p>Recommendation</p>
+        <div class="filter">
+            <button class="btn-filter">Data Science</button>
+            <button class="btn-filter">Data Engineer</button>
+            <button class="btn-filter">Data Analust</button>
+            <button class="btn-filter">Data Visualization</button>
+            <button class="btn-filter">CRM Analist</button>
+        </div>
+    </div>
+    <div class="sort">
+        <p>Sort</p>
+        <div class="sort-list">
+            <select>
+                 <option value="0">All</option>
+                 <option value="1">Newest Post</option>
+                 <option value="2">Oldest Post</option>
+                 <option value="3">Most Relevant</option>
+                 <option value="4">Highest Paid</option>
+            </select>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="card">
+            <div class="card-left blue-bg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/archive/5/53/20230822192910%21Google_%22G%22_Logo.svg/118px-Google_%22G%22_Logo.svg.png" alt="">
+            </div>
+            <div class="card-center">
+                <h3>Google</h3>
+                <p class="card-detail">Data Science, Data Engineer</p>
+                <p class="card-loc"><ion-icon name="location-outline"></ion-icon> Abcd street</p>
+                <div class="card-sub">
+                    <p><ion-icon name="today-outline"></ion-icon> 1 mins ago</p>
+                    <p><ion-icon name="hourglass"></ion-icon> Full-time</p>
+                    <p><ion-icon name="people-outline"></ion-icon> 200 Applicants</p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="card-tag">
+                    <h5>Division</h5>
+                    <a href="#">Data Engineer</a>
+                </div>
+                <div class="card-salary">
+                    <p><b>$350k</b> <span>/ year</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-left yellow-bg">
+                <img src="https://cdn.icon-icons.com/icons2/3685/PNG/512/tiktok_logo_icon_229283.png" alt="">
+            </div>
+            <div class="card-center">
+                <h3>Tiktok</h3>
+                <p class="card-detail">Data Analust, Product Analust</p>
+                <p class="card-loc"><ion-icon name="location-outline"></ion-icon> Abcd street</p>
+                <div class="card-sub">
+                    <p><ion-icon name="today-outline"></ion-icon> 10 mins ago</p>
+                    <p><ion-icon name="hourglass"></ion-icon> Full-time</p>
+                    <p><ion-icon name="people-outline"></ion-icon> 130 Applicants</p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="card-tag">
+                    <h5>Division</h5>
+                    <a href="#">Data Science</a>
+                </div>
+                <div class="card-salary">
+                    <p><b>$200k</b> <span>/ year</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-left red-bg">
+                <img src="https://www.svgrepo.com/show/13671/youtube.svg" alt="">
+            </div>
+            <div class="card-center">
+                <h3>Youtube</h3>
+                <p class="card-detail">Data Analust, Product Analust</p>
+                <p class="card-loc"><ion-icon name="location-outline"></ion-icon> Abcd street</p>
+                <div class="card-sub">
+                    <p><ion-icon name="today-outline"></ion-icon> 10 mins ago</p>
+                    <p><ion-icon name="hourglass"></ion-icon> Full-time</p>
+                    <p><ion-icon name="people-outline"></ion-icon> 240 Applicants</p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="card-tag">
+                    <h5>Division</h5>
+                    <a href="#">Engineer, Product</a>
+                </div>
+                <div class="card-salary">
+                    <p><b>$485k</b> <span>/ year</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-left purple-bg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png" alt="">
+            </div>
+            <div class="card-center">
+                <h3>Apple</h3>
+                <p class="card-detail">UI UX Designer</p>
+                <p class="card-loc"><ion-icon name="location-outline"></ion-icon> Abcd street</p>
+                <div class="card-sub">
+                    <p><ion-icon name="today-outline"></ion-icon> 1 hour ago</p>
+                    <p><ion-icon name="hourglass"></ion-icon> Full-time</p>
+                    <p><ion-icon name="people-outline"></ion-icon> 175 Applicants</p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="card-tag">
+                    <h5>Division</h5>
+                    <a href="#">Designer App</a>
+                </div>
+                <div class="card-salary">
+                    <p><b>$230k</b> <span>/ year</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-left blue-bg">
+                <img src="data:image/png;base64,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" alt="">
+            </div>
+            <div class="card-center">
+                <h3>Amazon</h3>
+                <p class="card-detail">Customer Care</p>
+                <p class="card-loc"><ion-icon name="location-outline"></ion-icon> Abcd street</p>
+                <div class="card-sub">
+                    <p><ion-icon name="today-outline"></ion-icon> 2 hour ago</p>
+                    <p><ion-icon name="hourglass"></ion-icon> Full-time</p>
+                    <p><ion-icon name="people-outline"></ion-icon> 200 Applicants</p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="card-tag">
+                    <h5>Division</h5>
+                    <a href="#">Customer Area</a>
+                </div>
+                <div class="card-salary">
+                    <p><b>$190k</b> <span>/ year</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--right section: detail jobs-->
+<div class="detail">
+    <ion-icon class="close-detail" name="close-outline"></ion-icon>
+    <div class="detail-header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/archive/5/53/20230822192910%21Google_%22G%22_Logo.svg/118px-Google_%22G%22_Logo.svg.png" alt="">
+        <h2>Google</h2>
+        <p>Data Science</p>
+    </div>
+    <hr class="divider">
+    <div class="detail-desc">
+        <div class="about">
+            <h4>About Company</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, inventore?</p>
+            <a href="#">Read More</a>
+        </div>
+        <hr class="divider">
+        <div class="qualification">
+            <h4>Qualification</h4>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, quas.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi enim non numquam perferendis quas voluptatem.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eligendi minus vel!</li>
+            </ul>
+        </div>
+    </div>
+    <hr class="divider">
+    <div class="detail-btn">
+        <button class="btn-apply">Apply Now</button>
+        <button class="btn-save">Save Job</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="app.js"></script>
+</html>
